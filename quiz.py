@@ -61,7 +61,6 @@ class MyWindow(Gtk.Window):
                     x += 1
         myFile.close()
         random.shuffle(self.indexOrder)
-        print(len(self.spanishList))
 
 
 
@@ -87,12 +86,10 @@ class MyWindow(Gtk.Window):
 
 
     def on_myCheckBox_toggled(self, widget, ischecked):
-        print("checked!!")
         if( self.mode == True):
             self.mode = False
         else:
             self.mode = True
-        print(self.mode)
 
 
     def on_myButton_clicked(self, widget): 
