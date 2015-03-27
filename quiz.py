@@ -13,7 +13,7 @@ class MyWindow(Gtk.Window):
         self.number = -1
         self.indexOrder = []
         self.status = 0
-        self.mode = True
+        self.mode = True #Spanish to English or English to Spanish
 
         # Main window
         Gtk.Window.__init__(self, title="Spanish Vocab!")
